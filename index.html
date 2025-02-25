@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        form{
+            font-family:Arial, Helvetica, sans-serif;
+            border: solid 2px  #ccc;
+            width: 40%;
+            margin: 50px auto;
+            padding: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 5px 5px 5px rgb(224, 217, 217);
+
+        }
+        #input{
+            padding: 8px 12px;
+            width: 90%;
+            margin: 10px 0;}
+
+            #icons{
+             justify-content: center;
+             text-align: center;
+             width: 100%;
+             font-size: 120%;
+            
+       }
+       #Google{
+            margin-right:30px;
+       }
+       #Facebook{
+             margin-right:30px;
+       }
+#submit-button{
+            background: none;
+            border: none;
+            border-radius: none;
+            padding: 12px 8px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            margin:5px 0;
+            width: 690px;}
+
+            .hr-lines {
+                position: relative;
+                max-width: 500px;
+                margin: 40px auto;
+                text-align: center;
+            }
+           .hr-lines::before{
+            content: "";
+            height: 2px;
+            width: 130px;
+            background: black;
+            display: block;
+            position:absolute;
+            top: 50%;
+            left: 0;
+
+           }
+           .hr-lines::after{
+            content:"";
+            height: 2px;
+            width: 130px;
+            background: black;
+            display: block;
+            position:absolute;
+            top: 50%;
+            right: 0;}
+
+
+    </style>
+    
+</head>
+<body>
+   
+    <form action="login.html" class="form">
+        <p style="font-family:Arial,sans serif;">Don't have an account?<a href="login.html" style="color: black;"><b>Sign In</b></a></p>
+    
+        <h1 style="font-family:Arial, Helvetica, sans-serif;"><p><b>Sign Up</b></p></h1>
+        <label for="first name">First Name:</label>
+        <br><br>
+        <input style="font-family:Arial, Helvetica, sans-serif;"type="text" id="input" placeholder="Enter first name"/>
+        <br><br>
+        <label for="email">Email:</label>
+        <br><br>
+        <input style="font-family:Arial, Helvetica, sans-serif;"type="email" id="input" placeholder="Enter email address"/>
+        <br><br>
+        <label for="password">Password</label>
+        <br>
+        <input style="font-family:Arial, Helvetica, sans-serif;"type="password" pattern="[0-9.]"placeholder="Enter Password" id="input"/>
+        <br><br><br>
+        <input type="checkbox"><label for="Terms and conditions">I've Read And Agree With <b>The Terms Of Service</b> And Our <b>Privacy Policy.</b>
+            <br>
+            <br>
+            <br>
+            
+<button style="font-family:Arial, Helvetica, sans-serif;"type="submit" id="submit-button">Sign Up</button>
+
+<h3 class="hr-lines">Or Sign Up With</h3>
+
+<div id="icons">
+    <i class="fa-brands fa-google" id="Google"></i>
+    <i class="fa-brands fa-facebook" id="Facebook"></i>
+    </div>
+<br>
+
+
+
+
+
+
+
+    
+</body>
+</html>
